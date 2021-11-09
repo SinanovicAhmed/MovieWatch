@@ -154,6 +154,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   display: none;
+  animation: onLoad 0.5s ease;
 }
 
 .hide-overlay {
