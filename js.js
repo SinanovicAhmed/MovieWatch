@@ -54,7 +54,7 @@ function popUpTrailer(title) {
 
 //function display top20 weekly movies
 function topMovies() {
-  currentMovies.textContent = "Top 20 movies of this week";
+  currentMovies.textContent = "";
   fetch(
     "https://api.themoviedb.org/3/trending/movie/week?api_key=0b1be0b0c816c32d2e31a0e9c0a8ad5f"
   )
