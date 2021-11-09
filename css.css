@@ -3,6 +3,14 @@
   padding: 0;
   font-family: "Gill Sans Extrabold", sans-serif;
 }
+@keyframes onLoad {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
 
 .navbar {
   height: 40px;
@@ -50,7 +58,7 @@
   width: 265px;
   height: 400px;
   margin: 20px;
-
+  animation: onLoad 1s ease;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -123,6 +131,9 @@
   font-size: 20px;
   padding-right: 15px;
   font-weight: initial;
+}
+.ime {
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 700px) {
