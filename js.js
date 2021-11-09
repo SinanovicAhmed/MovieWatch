@@ -9,7 +9,7 @@ const currentMovies = document.querySelector(".trenutno-prikazuje");
 const trailerWnd = document.querySelector(".display-trailer");
 const hideWndBtn = document.querySelector(".hide-overlay");
 const showTrailer = document.querySelector(".yt-box");
-
+const appName = document.querySelector(".ime");
 //dinamicko dodavanje filmova nakon pretrage
 function createFilm(title, vote_average, poster_path, overview) {
   let finalImage = "https://image.tmdb.org/t/p/w500" + poster_path;
@@ -115,4 +115,7 @@ inputField.addEventListener("keypress", (e) => {
 hideWndBtn.addEventListener("click", () => {
   trailerWnd.style.display = "none";
   showTrailer.src = "";
+});
+appName.addEventListener("click", () => {
+  topMovies();
 });
