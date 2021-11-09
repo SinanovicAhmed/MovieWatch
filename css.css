@@ -36,7 +36,7 @@
 .filmovi {
   width: 80%;
   min-height: 100vh;
-  min-width: 400px;
+  min-width: 200px;
 
   background-color: #1f1f1e;
 
@@ -101,8 +101,8 @@
   padding: 2px;
 }
 .search-btn {
-  width: 25px;
-  height: 25px;
+  width: 15px;
+  height: 15px;
   margin: 5px;
   border-radius: 30%;
   background: url("search-26242.png");
@@ -128,6 +128,9 @@
 @media only screen and (max-width: 700px) {
   .trenutno-prikazuje {
     display: none;
+  }
+  .ime{
+    font-size: 20px;
   }
 }
 .display-trailer {
