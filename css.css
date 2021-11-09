@@ -137,6 +137,7 @@
   background-color: rgb(43, 43, 42, 0.95);
   width: 60%;
   height: 60%;
+  min-width: 300px;
   position: fixed;
   top: 50%;
   left: 50%;
